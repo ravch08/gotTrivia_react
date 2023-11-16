@@ -3,8 +3,34 @@
 @tailwind utilities;
 
 #root {
-	@apply h-screen w-full;
+  @apply h-screen w-full;
 }
 body {
-	@apply bg-slate-300;
+  @apply bg-slate-300;
+}
+
+.btn {
+  @apply rounded-full  px-8 py-2  transition-colors;
+}
+.btn-primary {
+  @apply bg-slate-500 text-white duration-500 ease-in-out hover:bg-slate-800;
+}
+
+.btn-option {
+  @apply w-full cursor-pointer bg-sky-600 text-left text-white transition-transform duration-500 ease-in-out;
+}
+
+.correct {
+  @apply bg-green-800;
+}
+.incorrect {
+  @apply bg-red-800;
+}
+
+.answer {
+  @apply translate-x-4 transition-transform duration-500 ease-in-out;
+}
+
+.btn-option:not([disabled]):hover {
+  @apply translate-x-4;
 }

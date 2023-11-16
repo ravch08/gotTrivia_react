@@ -1,4 +1,4 @@
-const FinishingScreen = () => {
+const FinishingScreen = ({ points, maxPoints, percent, dispatch }) => {
   return (
     <section className="text-center">
       <p>
