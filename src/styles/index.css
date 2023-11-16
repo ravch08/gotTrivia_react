@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+	@apply h-screen w-full;
+}
+body {
+	@apply bg-slate-300;
+}
