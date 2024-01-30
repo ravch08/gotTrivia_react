@@ -1,4 +1,6 @@
-const StartingScreen = ({ numOfQuestions, dispatch }) => {
+import { StartingScreenProps } from "../../types/types";
+
+const StartingScreen = ({ numOfQuestions, dispatch }: StartingScreenProps) => {
   return (
     <section className="text-center">
       <h2 className="text-5xl font-semibold">Welcome to the GOT Quiz</h2>

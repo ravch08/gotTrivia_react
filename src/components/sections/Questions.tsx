@@ -1,8 +1,14 @@
 import { useDispatch } from "react-redux";
 import { checkAnswer } from "../../app/quizSlice";
+import { QuestionProps } from "../../types/types";
 import { NextQuestion, SubmitBtn } from "../utils/helper";
 
-const Questions = ({ question, answer, numOfQuestions, index }) => {
+const Questions = ({
+  question,
+  answer,
+  numOfQuestions,
+  index,
+}: QuestionProps) => {
   const dispatch = useDispatch();
 
   const hasAnswered = answer !== null;

@@ -1,4 +1,11 @@
-const ProgressBar = ({ index, maxPoints, points, numOfQuestions }) => {
+import { ProgressBarProps } from "../../types/types";
+
+const ProgressBar = ({
+  index,
+  maxPoints,
+  points,
+  numOfQuestions,
+}: ProgressBarProps) => {
   return (
     <section className="mb-24">
       <div className="mt-8 flex items-center justify-center gap-4">

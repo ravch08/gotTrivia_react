@@ -1,4 +1,11 @@
-const FinishingScreen = ({ points, maxPoints, percent, dispatch }) => {
+import { FinishingScreenProps } from "../../types/types";
+
+const FinishingScreen = ({
+  points,
+  maxPoints,
+  percent,
+  dispatch,
+}: FinishingScreenProps) => {
   return (
     <section className="text-center">
       <p>

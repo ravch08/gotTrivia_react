@@ -1,12 +1,14 @@
 {
   "questions": [
     {
+      "id": 1,
       "question": "What do the men and women of the realm call the creatures that killed Waymar?",
       "options": ["The Others", "Shadow walkers", "Wights", "Wildlings"],
       "correctOption": 0,
       "points": 10
     },
     {
+      "id": 2,
       "question": "When Lysa sends a message about Jon Arryn’s death to Catelyn, what else is contained in the box with the message?",
       "options": [
         "A lens",
@@ -18,6 +20,7 @@
       "points": 10
     },
     {
+      "id": 3,
       "question": "What convinces Ned to change his mind and leave Winterfell to serve as Hand of the King?",
       "options": [
         "Luwin tells Ned that he will gain great riches by taking such a powerful position.",
@@ -29,18 +32,21 @@
       "points": 10
     },
     {
+      "id": 4,
       "question": "Who is responsible for informing Robert that Daenerys has wed Drogo?",
       "options": ["Ned", "Viserys", "Jorah", "Littlefinger"],
       "correctOption": 2,
       "points": 10
     },
     {
+      "id": 5,
       "question": "Who gives Daenerys three dragon eggs as a wedding gift?",
       "options": ["Viserys", "Illyrio", "Jorah", "Drogo"],
       "correctOption": 1,
       "points": 10
     },
     {
+      "id": 6,
       "question": "After the battle with Robb’s army, why is Tyrion angry with Tywin?",
       "options": [
         "Tywin has not kept his promise to Tyrion’s men.",
@@ -52,6 +58,7 @@
       "points": 10
     },
     {
+      "id": 7,
       "question": "What is the sigil of House Baratheon?",
       "options": [
         "A grey direwolf",
@@ -63,6 +70,7 @@
       "points": 30
     },
     {
+      "id": 8,
       "question": "Why does Arya’s wolf, Nymeria, run away?",
       "options": [
         "Joff attacks it with his sword.",
@@ -74,6 +82,7 @@
       "points": 20
     },
     {
+      "id": 9,
       "question": "What are the words of House Tully?",
       "options": [
         "Winter Is Coming",
@@ -85,6 +94,7 @@
       "points": 20
     },
     {
+      "id": 10,
       "question": "What does Tyrion give to Bran when he visits Winterfell on his trip south from the Wall?",
       "options": [
         "Designs for a saddle",
@@ -96,6 +106,7 @@
       "points": 30
     },
     {
+      "id": 11,
       "question": "How does Littlefinger claim that Tyrion came to possess the dragonbone dagger?",
       "options": [
         "Tyrion stole it from Jon Arryn.",
@@ -107,6 +118,7 @@
       "points": 30
     },
     {
+      "id": 12,
       "question": "When Arya overhears a conversation in the Red Keep’s dungeons, what does Varys, the man wearing light armor, suggest?",
       "options": [
         "Delay their plans, since Drogo will not attack until his son is born.",
@@ -118,6 +130,7 @@
       "points": 10
     },
     {
+      "id": 13,
       "question": "What does Ned suggest to Robert right before he resigns as Hand of the King?",
       "options": [
         "Robert should kill Daenerys himself if he truly wishes to assassinate a child",
@@ -129,6 +142,7 @@
       "points": 30
     },
     {
+      "id": 14,
       "question": "How does Tyrion escape from the Eyrie?",
       "options": [
         "He pays Mord the jailer to free him.",
@@ -140,6 +154,7 @@
       "points": 30
     },
     {
+      "id": 15,
       "question": "After the trial by combat, what is the saying about the Lannisters that Tyrion tells Bronn while they are camped on a mountain road?",
       "options": [
         "A Lannister promise is as good as gold.",
